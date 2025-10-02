@@ -1,3 +1,7 @@
+#ostad camera ro be onvan device ezafe krdm o code 38 dadm bhsh, class joda k nmikhad???
+
+
+
 class Device:
     import paho.mqtt.client as mqtt
     import RPi.GPIO as GPIO  
