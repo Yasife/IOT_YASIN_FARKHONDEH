@@ -1,5 +1,12 @@
 #ostad camera ro be onvan device ezafe krdm o code 38 dadm bhsh, class joda k nmikhad???
+'''
+APM: salam tabeye turn_on ye ident jolo bod k fix krdm
+codetoon sahihe ahsant
 
+
+
+
+'''
 
 
 class Device:
@@ -18,7 +25,7 @@ class Device:
         self.connect_mqtt()
         self.setup_gpio()
       
-  def turn_on(self):
+    def turn_on(self):
         print('Done!!!')
         self.status='on'
         mqtt.publish(self.mqtt_client,self.device_name,'TURN ON')
